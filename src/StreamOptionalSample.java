@@ -52,7 +52,7 @@ public class StreamOptionalSample {
         }
         System.out.println("Number of words with even length: " + countEvenLengthWords);
 
-        // 8. Transformar palavras para uma lista de seus comprimentos
+        // 8. Transformar palavras para uma lista dos seus comprimentos
         List<Integer> wordLengths = new ArrayList<>();
         for (String word : words) {
             wordLengths.add(word.length());
